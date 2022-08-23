@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--linking bootstrap tools and stylesheet to the code for styling-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.rtl.min.css" integrity="sha384-+4j30LffJ4tgIMrq9CwHvn0NjEvmuDCOfk6Rpg2xg7zgOxWWtLtozDEEVvBPgHqE" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet2.css">
+   
+  <title>Ethan's website</title>
+   </head>
+
+      <body>
+     
+        <header id="heading img-fluid"> 
+          <!-- Adding a navigation bar -->
+            <nav class="navbar navbar-expand-lg bg-light"> 
+
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <!-- Adding buttons for each element in the navbar and linked them to the IDs within the body -->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <!-- Giving names to each element -->
+                        <a class="nav-link active" aria-current="page" href="#Education"> Education</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Experience">Experience</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Skills">Skills</a>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+         <!-- Adding text to the header and aligning it to the center -->
+        <div class="position-absolute bottom-0 align-center container-fluid placeholder-glow">
+          <span class="placeholder col-12 bg-danger">
+           <h1>Ethan Ashley Britz</h1>
+           <p class="px-3">I am a 25-year-old MSc Biodiversity and Conservation Biology graduate. In my honours year I was introduced to coding in the form of R statistics. Since then, I have been driven to pursue a career in software development and integrate coding to provide a convenient solution to problems in the world.</p>
+          </span>
+        </div>
+        <div class="d-flex justify-content m-2">
+          <a href="images/Ethan_CV_Updated.docx">
+          <button type="button" class="btn btn-primary">Download</button>
+          </a>
+        </div>
+        
+        </header>
+      
+        <main class="container-fluid">
+          <!-- container-fluid applies a width of 100% to targeted element -->
+          
+         <div id="contents">
+          <!-- Made a div to contain the contents within the body and listed each element -->
+          <h2 id="Education" class="p-3 text-bg-success">Education:</h2>
+          <ul>
+           <li><h3>Software development course at <a href="http://codespace.co.za" target="_blank"> CodeSpace Academy</a> (June 2022 - present)</h3></li>
+         
+          <li><h3>Qualifications attained from the University of the Western Cape:</h3></li>
+          </ul>
+         <ol>
+          <li>BSc Biodiversity and Conservation Biology  (2015 - 2017)</li>
+          <li>Hons Biodiversity and Conservation Biology (2019)</li>
+          <li>MSc Biodiversity and Conservation Biology  (2020 - present)</li>
+        </ol>
+      
+        <h2 id="Experience" class="p-3 text-bg-success">Experience:</h2>
+        <ol>
+           <li>Research and Laboratory assistant for: 
+            <ul>
+             <li><a href="https://www.arc.agric.za/" target="_blank">Agricultural Research Council (ARC)</a> (2017 - 2019)</li>
+             <li><a href="https://www.sanparks.org/" target="_blank">SanParks</a> (2019)</li>
+             <li><a href="https://www.sansor.org/" target="_blank">SANSOR</a> (2019)</li>
+            </ul>
+          </li>
+          <li>Laboratory practical demonstrator for the University of the Western Cape (2017 - 2018)</li>
+          <li>Rangeland intern for <a href="https://www.dalrrd.gov.za/" target="_blank">DAFF</a> and <a href="https://www.arc.agric.za/" target="_blank">ARC</a> (2019 - 2020)</li>
+          <li>Poster presenter at <a href="http://azef.co.za.www10.jnb1.host-h.net/index.php" target="_blank">AZEF</a> and <a href="https://grassland.org.za/" target="_blank">GSSA</a> conferences (2018 - 2019):
+            <ul><li>Won award for best poster presenter at GSSA</li></ul>
+          </li>
+          <li>Honours student supervisor (2021)</li>
+        </ol>
+          
+        
+        <h2 id="Skills" class="p-3 text-bg-success">Skills</h2>
+          <ul>
+           <li>Competent with HTML and CSS</li>
+           <li>Competent with R statistical program</li>
+           <li>Competent in scientific writing and analysis</li>
+           <li>Trained in biological management and research</li>
+          </ul>
+
+          <div class="row text-center">
+            <div class="col">
+              <img src="images/HTML_Logo.png" class="img-fluid"  alt="html logo" width="200px">
+            </div>
+            <div class="col">
+              <img src="images/CSSlogo.png" class="img-fluid"  alt="css logo" width="150px">
+            </div>
+            <div class="col">
+              <img src="images/JavaScript-Logo.png" class="img-fluid"  alt="JS logo" width="350px">
+            </div>
+          </div>
+        </div>
+
+        </main>
+      <!-- Adding a bar at the bottom of the page that contains links to my social media and a form -->
+      <footer>
+       <div class="bg-secondary py-4">    
+       <form class="container">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="e.g.ebritz96@gmail.com">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-white">Comment</label>
+           <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label text-white for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+        <h3 class="bg-warning mb-0 text-center">You can find me on:</h2>
+          <div class="d-flex py-4 justify-content-center gap-5 bg-secondary">
+           
+          <a href="https://www.facebook.com/" target="_blank">
+           <img src="Images/facebookicon.png"
+           alt="Ethan facebook"
+           width="100px">
+          </a>
+        
+          <a href="https://www.linkedin.com/feed/" target="_blank">
+           <img src="Images/linkedinicon.png" 
+           alt="Ethan Linkedin"
+           width="100px">
+          </a>
+
+          <a href="https://www.gmail.com" target="_blank"> 
+           <img src="Images/gmailicon.png"
+           alt="Ethan email"
+           width="100px"></a>
+          
+          </div>
+        </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

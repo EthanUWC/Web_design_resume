@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+    font-size:110%;
+    background-color: #FCF7F8;
+    display: flex;
+    flex-direction: column;
+    border: #343330;
+  }
+  
+  header {
+    text-align: center;
+    background-image: url("../images/ethan.jpg");
+    @media (min-width: 576px) { url("../images/ethan.jpg") };
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #heading{
+    font-family: sans-serif;
+    font-size: 110%;
+    background-color: gray;
+  }
+  
+  /* #Ethanphoto{
+    width: 20%;
+    height: 30%;
+    border-radius: 50%;
+    border: 3px solid red; */
+  /* } */
+  
+  /* .main {
+    display: flex;
+    flex-direction: row;
+    overflow: unset;
+  } */
+
+  
+  /* #sidebar {
+    background-color: greenyellow;
+    width: 15%;
+    color: white;
+    padding: 1rem;
+  } */
+  
+  /* .icons {
+    width: 4rem;
+    margin: 1rem;
+    height: auto;
+  } */
+  
+  /* footer {
+    background-color: #343330;
+    text-align: center;
+  } */
+  
+
+  
